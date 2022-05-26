@@ -11,4 +11,3 @@ if (total>1000) {
     console.log('El precio final con el descuento sera de:'+ precioDescuento);
 }else{
     console.log('El precio final sera de:'+ total);
-}

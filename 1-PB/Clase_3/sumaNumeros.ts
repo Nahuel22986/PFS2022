@@ -1,5 +1,11 @@
 import*as rls from 'readline-sync'
-let numero : number;
-let numero1 : number;
-let numero2 : number;
-numero1 rls.questionInt("Ingrese el primer numero:");
+let numero1 : number = rls.questionInt("Ingrese el primer numero:");
+let numero2 : number = rls.questionInt("Ingrese el segundo numero:");
+let suma, actual : number;
+actual = numero1
+suma = 0;
+while (actual <= numero2){
+    suma = suma + actual;
+    actual++;
+}
+console.log("El resultado es:"+suma)
